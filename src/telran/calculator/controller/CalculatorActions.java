@@ -2,17 +2,16 @@ package telran.calculator.controller;
 
 import java.util.ArrayList;
 
-import telran.calculator.controller.CalculatorActions;
-import telran.calculator.servises.Calculator;
+import telran.calculator.service.Calculator;
 import telran.view.InputOutput;
 import telran.view.Item;
 
 public class CalculatorActions {
 private static Calculator calculator;
-private CalculatorActions() {
-	//renamed class
+private CalculatorActions() { 
+	
 }
-static public ArrayList<Item> getCalculatorItems(Calculator calculator){
+static public ArrayList<Item> getCalculatorActions(Calculator calculator){
 	CalculatorActions.calculator = calculator;
 	ArrayList<Item> items = new ArrayList<>();
 	items.add(Item.of("Add two numbers", CalculatorActions::add));

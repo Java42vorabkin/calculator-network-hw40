@@ -6,6 +6,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/emplotees-application_MyVer"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/employees-application"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
